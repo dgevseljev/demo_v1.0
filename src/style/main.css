@@ -1,0 +1,175 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-family: 'Commissioner', sans-serif;
+	}
+
+body {
+	background-color: #FF004E;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.wrapper-padding {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 90px;
+	background-color: #000;
+	width: 100vw;
+	min-height: calc(100vh + 50px);
+	border-radius: 0px 0px 30px 30px;
+	display: flex;
+	flex-direction: column;
+	scroll-behavior: smooth;
+	/* justify-content: space-between; */
+	
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.logo {
+	margin-top: 20px;
+	color: #FF004E;
+	font-size: 24px;
+    font-family: 'poppins';
+	letter-spacing: -0.07em;
+	
+}
+
+.buttons {
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+}
+
+/* .btn {
+	height: 32px;
+	width: 150px;
+	border-radius: 10px;
+	border: 1px solid #FF004E;
+	background-color: transparent;
+	color: #FF004E;
+	font-size: 16px;
+	cursor: pointer;
+	line-height: 16px;
+} */
+
+/* .buttons :hover {
+	border-color: #e60045;
+	color: #e60045;
+} */
+
+/* #btn-rules {
+	margin-right: 12px;
+	width: 200px;
+} */
+
+.line {
+	background-color: #FF004E;
+	margin-top: -6px;
+	width: 400px;
+	height: 1px;
+}
+
+/* .title {
+	position: relative;
+	margin-top: 20px;
+	/* height: 100px;
+	width: 100%; 
+}
+
+.title_place {
+	position: absolute;
+	top: 0px;
+	width: 120px;
+	height: 32px;
+	border: 1px solid #FF004E;
+	border-radius: 20px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.title_name {
+	color: #FF004E;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Commissioner', sans-serif;
+	letter-spacing: -0.05em;
+}
+
+.title_line {
+	background-color: #FF004E;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 600px;
+	height: 1px;
+}
+
+.title_caption {
+	color: #FF004E;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Commissioner', sans-serif;
+	position: absolute;
+	left: 140px;
+	top: 1px;
+	letter-spacing: -0.05em;
+} */
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-auto-flow: row;
+	grid-gap: 20px;
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+}
+
+.card:hover{
+	background-color: #e60045;
+}
+
+.card {
+	background-color: #FF004E;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 100%;
+	height: 140px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.card-name {
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+} 
+
+.arrow {
+	width: 13px;
+	height: 13px;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	transform: rotate(45deg);
+	align-self: flex-end;
+}    
+
+.ctgLink {
+	height: 100%;
+	width: 100%;
+}

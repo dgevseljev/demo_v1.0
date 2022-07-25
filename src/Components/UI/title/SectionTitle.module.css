@@ -1,0 +1,51 @@
+.title {
+	position: relative;
+	margin-top: 20px;
+}
+
+.title_flexcontainer {
+    display: flex;
+}
+
+.title_place {
+    width: auto;
+	height: 32px;
+	border: 1px solid #FF004E;
+	border-radius: 20px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.title_name {
+	color: #FF004E;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Commissioner', sans-serif;
+	letter-spacing: -0.05em;
+    padding: 0px 20px;
+}
+
+.title_line {
+	background-color: #FF004E;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 600px;
+	height: 1px;
+}
+
+.title_caption {
+	color: #FF004E;
+	line-height: 24px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Commissioner', sans-serif;
+    margin-left: 20px;
+	letter-spacing: -0.05em;
+	align-self: flex-start;
+}
+
+.subtitle_container {
+	padding-top: 6px;
+}

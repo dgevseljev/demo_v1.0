@@ -1,0 +1,19 @@
+.more {
+    /* width: 50%; */
+    /* height: 100%; */
+	min-height: 140px;
+    background-color: #0D0D0D;
+    border: 1px solid #FF004E;
+    border-radius: 20px;
+    padding: 20px;
+    /* transition: 1s; */
+    /* transition-duration: 1s;  react-transition-.. library */
+	/* align-self: start; */
+}
+
+.moreContent {
+    font-family: 'Commissioner', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+    color: #fff;
+}
